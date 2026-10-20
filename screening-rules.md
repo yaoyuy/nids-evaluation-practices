@@ -31,7 +31,7 @@ Title-and-abstract screening used machine-readable fields only, in a fixed order
 
 ## 3. Sampling
 
-Coding all 2,029 eligible records was not feasible. Rather than selecting studies by hand, which would invite the objection of selective inclusion, a random sample was drawn with a fixed seed: **180 records from the 2,029 eligible records, using Python 3.10 with seed 20261018**. The sample was drawn larger than the target number of coded studies because full-text availability had to be verified record by record and a substantial fraction was expected to be unretrievable.
+The coded set is a random sample of the eligible pool, drawn with a fixed seed so that its composition follows from the sampling rule and not from the coder's judgement: **180 records from the 2,029 eligible records, using Python 3.10 with seed 20261018**. Coding all 2,029 records was outside the scope of a single-author review, and the sample was drawn larger than the target number of coded studies because full-text availability had to be verified record by record and a substantial fraction was expected to be unretrievable.
 
 ## 4. Order of preference for full-text retrieval
 
@@ -39,10 +39,10 @@ Coding all 2,029 eligible records was not feasible. Rather than selecting studie
 2. an openly available repository copy deposited by the authors (Unpaywall and Europe PMC were used to locate these);
 3. the publisher's landing page, where no direct PDF link was exposed.
 
-No paper was coded from its abstract alone, and no paper was coded from a third-party mirror or an abstract-only record. No shadow-library route was used at any point.
+Every coded paper was read in full text, obtained through one of the three routes above: no abstract-only record, third-party mirror or shadow-library route entered the coded set.
 
 Of the 180 sampled records, full texts were obtained for **91 (50.6%)** and **89 were not retrieved**, predominantly because the publisher blocked automated access or because the record sat behind a subscription without institutional access. Of the 91 retrieved, **6 were excluded on full-text inspection**: 3 proved to be reviews, 2 had been retracted, and 1 reported no experiment on a publicly available benchmark. This left **85 coded studies** from the sample; **8 further studies** had been coded during protocol piloting, giving **93 coded studies** in total.
 
 ## 5. Pilot round
 
-Ten studies were coded before the main round, to calibrate the rules and measure the time per study. Eight of them are included in the 93; two were excluded because the institution had no subscription to the publisher and no other lawful route to the full text. The pilot block is not a random draw from the same population, and the article reports the three items on which it differs materially from the sampled block (dataset currency, computational-cost reporting and hyperparameter disclosure) side by side with the pooled figures.
+Ten studies were coded before the main round, to calibrate the rules and measure the time per study. Eight of them are included in the 93; two were excluded because the institution had no subscription to the publisher and no other lawful route to the full text. The pilot block is a purposive block, drawn from the same population but not at random: it differs materially from the sampled block on three items (dataset currency, computational-cost reporting and hyperparameter disclosure), which the article reports side by side with the pooled figures.

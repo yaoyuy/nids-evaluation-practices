@@ -47,6 +47,6 @@ id,doi,title,publication_year,type,language,primary_location,best_oa_location,
 open_access,abstract_inverted_index,cited_by_count,authorships
 ```
 
-## Databases that were not queried
+## Coverage of the search
 
-Scopus, Web of Science and IEEE Xplore were not queried, because they require institutional authentication that was not available to the author, and the Semantic Scholar API returned rate-limit responses throughout the retrieval window. OpenAlex indexes the great majority of the journals covered by those databases, but its coverage of conference proceedings and of the most recent issues is incomplete. The included set is therefore a structured, reproducible sample of the indexed literature rather than an exhaustive census. The citation-snowballing check in `results/snowball-summary.json` quantifies how much this matters.
+The search was run on OpenAlex, which is reachable without institutional authentication. Scopus, Web of Science and IEEE Xplore sit behind institutional subscriptions that were not available to the author, and the Semantic Scholar API returned rate-limit responses throughout the retrieval window. OpenAlex indexes the great majority of the journals those databases cover; its coverage of conference proceedings and of the most recent issues is incomplete. The included set is a structured, reproducible sample of the indexed literature. The citation-snowballing check in `results/snowball-summary.json` quantifies the coverage gap.

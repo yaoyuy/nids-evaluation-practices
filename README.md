@@ -2,7 +2,7 @@
 
 Supplementary material and analysis code for the systematic review
 
-**Evaluation Practices in Deep Learning for Network Intrusion Detection: A Systematic Review of Dataset Reuse, Splitting Protocols, and Reproducibility (2019-2025)**
+**Evaluation Practices in Deep Learning for Network Intrusion Detection: A Systematic Audit of Dataset Reuse, Splitting Protocols, and Reproducibility (2019-2025)**
 
 Xiangyu He, School of Artificial Intelligence, Mianyang City College, Mianyang, Sichuan, China
 
@@ -40,7 +40,7 @@ The scripts expect a `data/` directory holding the retrieved records and the two
 
 ## Notes on the data
 
-- The verification experiment downloads or expects two benchmark datasets: NSL-KDD (`KDDTrain+` and `KDDTest+`) and the 175,341-record UNSW-NB15 file. The official 82,332-record UNSW-NB15 test partition could not be retrieved from the provider and is not used; all UNSW-NB15 results are computed within the single distributed file. This limitation is stated in the article.
+- The verification experiment downloads or expects two benchmark datasets: NSL-KDD (`KDDTrain+` and `KDDTest+`) and the 175,341-record UNSW-NB15 file. The official 82,332-record UNSW-NB15 test partition could not be retrieved from the provider and is not used; all UNSW-NB15 results are computed within the single distributed file (article, Limitations).
 - The coding sheet contains no personal data and no third-party text beyond short verbatim quotations used as coding evidence.
 - The scripts were written for Python 3.10 with scikit-learn 1.7.2, PyTorch 2.5.1, pandas 2.3.3, NumPy 2.2.6, SciPy 1.15.3, Matplotlib 3.10.9 and python-docx.
 - No credentials, tokens or account details are included anywhere in this repository.
@@ -52,4 +52,4 @@ The scripts expect a `data/` directory holding the retrieved records and the two
 
 ## Citation
 
-Cite the article once published. The archived version of this repository, with a permanent DOI, will be linked from the article's Data availability statement.
+Cite the article once published. This repository is archived at Zenodo under DOI 10.5281/zenodo.23491180 (concept DOI 10.5281/zenodo.23491179), which is the permanent identifier given in the article's Data availability statement.
