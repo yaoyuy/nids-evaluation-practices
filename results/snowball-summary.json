@@ -1,0 +1,10 @@
+{
+ "n_seeds_resolved": 93,
+ "n_backward_unique": 2170,
+ "n_forward_unique": 4505,
+ "n_union": 6451,
+ "n_fetched": 6413,
+ "n_in_original_pool": 564,
+ "n_new": 5849,
+ "elapsed_s": 306.9
+}

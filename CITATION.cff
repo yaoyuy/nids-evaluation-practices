@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use the coding sheet or the analysis code, please cite the article listed below."
+title: "Evaluation Practices in Deep Learning for Network Intrusion Detection: A Systematic Review of Dataset Reuse, Splitting Protocols, and Reproducibility (2019-2025)"
+authors:
+  - family-names: "He"
+    given-names: "Xiangyu"
+    affiliation: "School of Artificial Intelligence, Mianyang City College, Mianyang, Sichuan, China"
+    orcid: "https://orcid.org/0009-0007-2584-4364"
+type: software
+license: MIT
+abstract: "Coding sheet, search and screening rules, analysis scripts and derived results for a systematic review of dataset reuse, splitting protocols and reproducibility in deep-learning network intrusion detection (93 coded studies)."
+keywords:
+  - network intrusion detection
+  - reproducibility
+  - data leakage
+  - systematic review
