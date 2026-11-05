@@ -48,7 +48,7 @@ The scripts expect a `data/` directory holding the retrieved records and the two
 ## Licence
 
 - Code (`code/`): MIT, see `LICENSE`.
-- Data, derived results and figures (`coding-sheet.csv`, `prisma-record.csv`, `download-log.csv`, `results/`, `figures/`): Creative Commons Attribution 4.0 International (CC BY 4.0).
+- Data, derived results and figures (`coding-sheet.csv`, `prisma-record.csv`, `download-log.csv`, `results/`, `figures/`): Creative Commons Attribution 4.0 International (CC BY 4.0), see DATA-LICENSE.md.
 
 ## Citation
 
